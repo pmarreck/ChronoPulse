@@ -1,0 +1,5 @@
+{
+  "name": "ChronoPulse",
+  "description": "A precision analog clock widget featuring a modern aesthetic, real-time synchronization, and smooth quartz-like mechanical animations.",
+  "requestFramePermissions": []
+}

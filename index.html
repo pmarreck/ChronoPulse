@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChronoPulse - Modern Analog Clock</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Custom animation for the second hand to give it a realistic mechanical 'tick' */
+      .hand-transition {
+        transition: transform 0.15s cubic-bezier(0.4, 2.08, 0.55, 0.44);
+      }
+      /* Smooth movement for hour and minute hands */
+      .smooth-transition {
+        transition: transform 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-950 text-slate-200 antialiased overflow-hidden">
+    <div id="root"></div>
+  </body>
+</html>
