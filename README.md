@@ -1,5 +1,7 @@
 # ChronoPulse
 
+[Live Demo](https://pmarreck.github.io/ChronoPulse/)
+
 A modern, accurate clock application.
 
 ## Development
